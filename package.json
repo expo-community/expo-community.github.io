@@ -1,0 +1,32 @@
+{
+  "name": "@expo-community/website",
+  "private": true,
+  "version": "0.0.0",
+  "description": "The source of the website at expo-community.github.io.",
+  "main": "index.js",
+  "scripts": {
+    "build": "./build.sh",
+    "clean": "rm -rf build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo-community/expo-community.github.io.git"
+  },
+  "keywords": [
+    "expo",
+    "community"
+  ],
+  "author": "Expo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/expo-community/expo-community.github.io/issues"
+  },
+  "homepage": "https://github.com/expo-community/expo-community.github.io#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.6",
+    "autoprefixer": "^9.7.4",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
